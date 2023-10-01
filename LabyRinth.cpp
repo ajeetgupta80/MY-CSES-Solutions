@@ -12,6 +12,11 @@ void init_code(){
     #endif 
 }
 
+void fast_code(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+}
+
 
 
 
@@ -19,6 +24,8 @@ void init_code(){
 
 signed main(){
 	init_code();
+     fast_code();
+
 
     int row, col;
     cin >> row >> col;
