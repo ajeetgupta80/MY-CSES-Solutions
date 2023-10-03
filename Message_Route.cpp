@@ -71,6 +71,7 @@ int main(){
         st.push(current_node);
         current_node = parent[current_node];
      }
+     
      cout<<st.size()<<endl; 
      while(!st.empty()){
         cout<<st.top()<<" ";
