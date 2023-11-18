@@ -9,6 +9,7 @@ void init_code(){
     freopen("input_1.txt", "r", stdin);
     freopen("output_1.txt", "w", stdout);
     #endif 
+    
 }
 
 
